@@ -1,0 +1,13 @@
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+--> Initialization a repository gives the following mesage:
+Initialized empty Git repository in C:/Users/cr174k/Desktop/Roy/GIT/version-control/reflections/.git/
+
+It is needed to perform the version control for that repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+--> Staging area acts as an intermididate stage between the working and the Repository. Any file that needs to be committed has to be put into the staging area first with the help of the command "git add file_name". Once it is put in the staging area, it is now ready to be committed in the repository. If not we can still remove it from the staging area with the command "git reset filename". We can group files with similar logical functions to be committed together in one commit, so they needed to be staged together.
+
