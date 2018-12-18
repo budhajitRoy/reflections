@@ -1,0 +1,68 @@
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+--->It was helpful because :
+1. it compares for each line of code and marks the difference.
+2. if a large file, then line to line comparison is the only way to find the bugs.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+--->Easy access to the entire history will be helpful:
+1. Will be easier to compare with any of the previous versions.
+2. Will be easy to track the overall changes in the different versions.
+3. Will be easy to track how much effort has been completed if the versions are organised under some systematic manner.
+    
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+--->Manually choosing the commit has the below advantages:
+1. Customize the checkpoints on when to commit.
+2. Can separate different commit versions based on user's choice.
+
+Disadvantage could be if the system got crash, might lost the udpates if not committed or SAVED. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+--->Some version controls like GIT allow multiple files to save in one commit as there are multiple files that are inter-related and required to be commited together. This feature of allowing multiple files to be saved in one commit makes it easier to track the versions of all files that are committed in that particular commit which are not in some version controls like Google Docs, etc.
+
+How can you use the commands git log and git diff to view the history of files?
+
+--> git log // this will give the logs or summary
+--> git diff commitId1 commitID2
+
+log operate on Commit
+
+How might using version control make you more confident to make changes that
+could break something?
+
+--> git checkout commitID allows to revert it back to any of the previous commits. So, if any of our changes introduces any bug or any defect, then going back to the previous version of the code is pretty much easier and simpler.
+
+
+*************
+
+C:\Program Files\Sublime Text 3
+git config --global core.editor "'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w"
+use this  git config --global core.editor "'C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe' -n -w"
+C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe
+
+
+git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+
+*****************
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+--> open the sublime editor from GIT
+--> check for various color configs.
+--> and many more...
+
+git diff 71d52709ddc4066e7a79a1d0a412e43429a0cdeb 547f4171a82ec6429d002c1acef357aec41d3f17
